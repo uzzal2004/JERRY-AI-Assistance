@@ -39,15 +39,16 @@ jerry_assistant/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/jerry-assistant.git
-cd jerry-assistant
+git clone https://github.com/uzzal2004/JERRY-AI-Assistance.git
+cd JERRY-AI-Assistance
 ```
 
 2. Create virtual environment:
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+conda create -n Jerry python=3.11 -y
+conda activate Jerry
+
 ```
 
 3. Install dependencies:
@@ -59,10 +60,10 @@ pip install -r requirements.txt
 4. Set up environment variables:
 
 ```bash
-cp .env.example .env
+ .env
 ```
 
-5. Get your Gemini API key from [Google AI Studio](https://makersuite.google.com/app/apikey) and add it to `.env`:
+5. Get your Gemini API key and add it to `.env`:
 
 ```
 GEMINI_API_KEY=your_actual_api_key_here
