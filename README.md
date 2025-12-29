@@ -29,7 +29,6 @@ jerry_assistant/
 ├── config/
 │   └── settings.py            # Environment & config
 ├── .env                        # API key (not in git)
-├── .env.example               # Template for .env
 ├── requirements.txt
 └── README.md
 ```
